@@ -1,5 +1,5 @@
 ﻿#include "aob_scan.hpp"
-#include "../StringManipulate/StringManipulate.hpp"
+#include "StringManipulate.hpp"
 
 int aob_scan::scan(HANDLE handle, const std::string &pattern, const int memory_flags)
 {

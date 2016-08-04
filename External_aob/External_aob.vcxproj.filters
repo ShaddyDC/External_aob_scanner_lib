@@ -18,9 +18,15 @@
     <ClInclude Include="aob_scan.hpp">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="StringManipulate.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="aob_scan.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="StringManipulate.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

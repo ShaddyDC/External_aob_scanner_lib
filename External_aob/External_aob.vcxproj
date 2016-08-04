@@ -20,14 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="aob_scan.hpp" />
+    <ClInclude Include="StringManipulate.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="aob_scan.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\StringManipulate\StringManipulator.vcxproj">
-      <Project>{20a25fab-3ff1-41b6-a6a5-81682743c190}</Project>
-    </ProjectReference>
+    <ClCompile Include="StringManipulate.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A3E9C82A-4B2A-47BD-A5BC-C21FF74BDF49}</ProjectGuid>
